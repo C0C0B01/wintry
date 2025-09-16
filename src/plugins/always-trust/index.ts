@@ -1,11 +1,15 @@
-import { Dev } from "@data/constants";
 import { definePlugin } from "#plugin-context";
 import { byStoreName } from "@metro/common/stores";
 
 export default definePlugin({
-    name: "Always Trust",
+    name: "AlwaysTrust",
     description: "Prevents Discord's trust website confirmations",
-    authors: [Dev.cocobo1],
+    authors: [
+        {
+            "name": "cocobo1",
+            "id": 767650984175992833n
+        },
+    ],
 
     patches: [
         {
